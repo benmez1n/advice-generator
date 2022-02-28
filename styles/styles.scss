@@ -12,12 +12,15 @@
 }
 body{
     font-family: Manrope;
+    min-height: 100vh;
+    display: flex;
+    place-items: center ;
+    place-content: center;
     background-color: var(--dark-blue);
 }
 main{
     width: 40%;
     display:flex;
-    margin:5% auto;
     flex-direction: column;
     background-color: var(--blue);
     padding:2em;
@@ -47,7 +50,7 @@ main{
         height: max-content;
         margin:2em auto -3em;
         border-radius: 50%;
-        padding: 12px;
+        padding: 1em;
         background-color: var(--neon-green);
         &:hover{
             cursor: pointer;
