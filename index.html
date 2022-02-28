@@ -2,22 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles/styles.css">
   <title>Frontend Mentor | Advice generator app</title>
-
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <main>
+    
+    <h1>
+      Advice #<span id="advice-id"></span>
+    </h1>
 
-  Advice #<!-- Advice ID goes here -->
-
-  "<!-- Advice text goes here -->"
-  
+    <p id="advice"></p>
+    <img src="images/pattern-divider-desktop.svg" alt="divider">
+    <div id="dice">
+      <img src="images/icon-dice.svg" alt="dice">
+    </div>
+  </main>
+  <script src="js/app.js"></script>
 </body>
 </html>
